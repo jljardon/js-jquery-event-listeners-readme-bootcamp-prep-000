@@ -27,8 +27,8 @@ function submitIt(){
 }
 
 $(document).ready(function(){
-   //$('p').on('click', getIt());
-   //$('img').on('load', frameIt());
+   getIt();
+   frameIt();
    pressIt();
    submitIt();
 });

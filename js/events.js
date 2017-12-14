@@ -20,10 +20,6 @@ function submitIt(){
    $('#submitDemo').on("click",function() {
       alert('Your form is going to be submitted now.');
    });
-/*  if ($( "input:first" ).val() === "correct") {
-
-    return;
-}*/
 }
 
 $(document).ready(function(){

@@ -20,7 +20,6 @@ function pressIt(){
       alert('You pressed the G key!');
       return;
    }
-
 }
 
 function submitIt(){

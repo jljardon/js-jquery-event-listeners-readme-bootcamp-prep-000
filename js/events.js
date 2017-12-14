@@ -7,7 +7,9 @@ function getIt(){
 }
 
 function frameIt(){
-   $('img').addClass('tasty');
+   $('img').on('load',function(){
+      $('img').addClass('tasty');
+   });
 }
 
 function pressIt(){
@@ -26,7 +28,7 @@ function submitIt(){
 
 $(document).ready(function(){
    //$('p').on('click', getIt());
-   $('img').on('load', frameIt());
+   //$('img').on('load', frameIt());
    pressIt();
    submitIt();
 });

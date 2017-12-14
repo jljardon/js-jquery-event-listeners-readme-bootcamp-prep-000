@@ -7,7 +7,7 @@ function getIt(){
 }
 
 function frameIt(){
-   $('img').on('load',function(){
+   function(){
       $('img').addClass('tasty');
    });
 }
@@ -28,7 +28,7 @@ function submitIt(){
 
 $(document).ready(function(){
    getIt();
-   frameIt();
+   $('img').on('load',frameIt());
    pressIt();
    submitIt();
 });

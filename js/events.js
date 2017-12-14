@@ -1,5 +1,4 @@
 //define functions here
-var keyName
 
 function getIt(){
   alert('Hey!');

@@ -17,10 +17,13 @@ function pressIt(){
 }
 
 function submitIt(){
-  if ($( "input:first" ).val() === "correct") {
-    alert('Your form is going to be submitted now.');
+   $('#submitDemo').on("click",function() {
+      alert('Your form is going to be submitted now.');
+   });
+/*  if ($( "input:first" ).val() === "correct") {
+
     return;
-  }
+}*/
 }
 
 $(document).ready(function(){

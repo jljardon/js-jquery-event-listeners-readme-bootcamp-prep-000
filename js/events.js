@@ -25,4 +25,6 @@ function submitIt(){
 $(document).ready(function(){
    $('p').on('click', getIt());
    $('img').on('load', frameIt());
+   pressIt();
+   submitIt();
 });

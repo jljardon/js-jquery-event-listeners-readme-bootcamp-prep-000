@@ -18,7 +18,7 @@ function pressIt(){
     }
    });
 /*   if(pressed = 71){
-      
+
       return;
    }*/
 }

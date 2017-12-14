@@ -16,7 +16,7 @@ function pressIt(){
       pressed = 71;
     }
    });
-   if(pressed === 71){
+   if(pressed = 71){
       alert('You pressed the G key!');
       return;
    }
